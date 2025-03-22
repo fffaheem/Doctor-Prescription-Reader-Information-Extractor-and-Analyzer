@@ -190,5 +190,5 @@ def generate(filepath):
 
 
 
-d = generate("C:/Users/mohdf/OneDrive/Desktop/check.jpg")
-print(d)
+# d = generate("C:/Users/mohdf/OneDrive/Desktop/check.jpg")
+# print(d)
