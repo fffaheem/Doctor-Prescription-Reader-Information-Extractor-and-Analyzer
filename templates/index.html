@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescription Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prescription Analyzer</h1>
+        <div class="upload-section">
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="magical-upload">
+                    <input type="file" name="file" id="fileInput" accept=".jpg,.jpeg,.png,.pdf" required hidden>
+                    <label for="fileInput" class="magical-button">
+                        <span class="button-text">Choose Your Prescription</span>
+                        <span class="sparkles">✨</span>
+                    </label>
+                    <div id="fileName" class="file-name">No file selected</div>
+                </div>
+                <button type="submit" id="analyzeButton" class="analyze-button" disabled>
+                    <span class="button-text">Analyze Prescription</span>
+                    <span class="sparkles">🌟</span>
+                </button>
+            </form>
+            <div id="loader" class="loader"></div>
+            <div id="errorMessage" class="error" style="display: none;"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -148,7 +148,7 @@ def generate(filepath):
                   For concerns, message on WhatsApp: 8445537118.
 
               Disclaimer:
-                  Note: Not for Medico legal purpose*
+                  Note: Not for Medico legal purpose
 
     Important Instructions:
     - Before extracting information, enhance the image for better readability if needed. Use techniques such as adjusting brightness, contrast, or applying filters to improve clarity.
@@ -164,7 +164,8 @@ def generate(filepath):
     - all additional subheading should contain a list of text
     - this is needed for a website so format need to be strictly followed
     - give JSON of it
-    - very important instruction if it's not a presription just return \"not a prescription\" """),
+    - very important instruction if it's not a presription just return \"not a prescription\" 
+    - disclamer is going to be the same always Note: Not for Medico legal purpose"""),
             ],
         ),
     ]

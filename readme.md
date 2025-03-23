@@ -76,7 +76,10 @@ Alternatively, you can test it using Postman:
             "Medication name": "Amoxicillin",
             "Dosage": "500 mg",
             "Frequency": "Twice a day (TD)",
-            "Duration": "7 days"
+            "Duration": "7 days",
+            "Medicine Description": "Zincowil Tablet is a nutritional supplement that is used to treat deficiencies of zinc in the body. It is often used to boost the immune system and for overall growth and well-being.",
+            "Medicine Usage": "It is used to treat zinc deficiency, strengthen the immune system, and support overall health.",
+            "Medicine Side effects": "Generally considered safe, but high doses of zinc can cause side effects like nausea, vomiting, diarrhea, and metallic taste in the mouth.",
         }
     ],
     "Additional notes": {
