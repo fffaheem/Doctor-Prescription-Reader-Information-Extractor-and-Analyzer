@@ -15,15 +15,16 @@ Depending on your use case, you can choose either the API for backend integratio
 
 ## Screenshots (Web App)
 Here are some glimpses of the web app in action:
-    ![](Screenshots/1.png)
-    
-    ![](Screenshots/2.png)
-    
-    ![](Screenshots/3.png)
-    
-    ![](Screenshots/4.png)
-    
-    ![](Screenshots/5.png)  
+
+![Screenshot 1](Screenshots/1.png)
+
+![Screenshot 2](Screenshots/2.png)
+
+![Screenshot 3](Screenshots/3.png)
+
+![Screenshot 4](Screenshots/4.png)
+
+![Screenshot 5](Screenshots/5.png)
 
 ## Prerequisites
 - Python 3.8 or higher
