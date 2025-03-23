@@ -17,6 +17,7 @@ def generate(filepath):
     )
 
     model = "gemini-2.0-pro-exp-02-05"
+    # model = "gemini-2.0-flash"
     with open(filepath, 'rb') as image_file:
         encoded_image = base64.b64encode(image_file.read()).decode('utf-8')
     contents = [
@@ -162,7 +163,8 @@ def generate(filepath):
     - If Additional information is not there still display it if sub heading of addition information is not there still display it with information not available and do not create more subheadings
     - all additional subheading should contain a list of text
     - this is needed for a website so format need to be strictly followed
-    - give JSON of it"""),
+    - give JSON of it
+    - very important instruction if it's not a presription just return \"not a prescription\" """),
             ],
         ),
     ]
@@ -190,5 +192,5 @@ def generate(filepath):
 
 
 
-# d = generate("C:/Users/mohdf/OneDrive/Desktop/check.jpg")
+# d = generate("./test_cases/check.jpg")
 # print(d)

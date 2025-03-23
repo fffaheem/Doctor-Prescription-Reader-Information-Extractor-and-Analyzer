@@ -1,4 +1,4 @@
-pip install dotenv, google-genai, flask
+pip install dotenv, google-genai, flask, pymupdf
 
 to check the api
-curl -X POST "http://127.0.0.1:8000/extract-prescription/" -H "Content-Type: multipart/form-data" -F "file=@C:/Users/mohdf/OneDrive/Desktop/check.jpg"
+curl -X POST "http://127.0.0.1:8000/extract-prescription/" -H "Content-Type: multipart/form-data" -F "file=@test_cases/check 2.jpg"
