@@ -32,9 +32,10 @@ pip install dotenv google-genai flask pymupdf
 ```
 
 ### Set Up Environment Variables
+To use the API, you need to obtain a Google Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).
 Create a `.env` file in the root directory and add your Google Gemini API key:
 ```env
-GEMINI_API_KEY=your_api_key_here
+GEMINI_API_KEY="your_api_key_here"
 ```
 
 ## Running the API
@@ -107,4 +108,9 @@ You can integrate and access the API using:
 - Ensure your Google API key is valid.
 - If using a PDF, only the first page will be processed.
 - Invalid or unreadable prescriptions will return `"not a prescription"`.
+
+## Future Enhancements
+Exciting updates are on the way! Soon, a Flask-based web app will be released alongside this standalone API. This web app will provide a user-friendly interface where users can easily upload prescription images and instantly receive extracted results.
+
+Stay tuned for more updates!
 
